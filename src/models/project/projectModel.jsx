@@ -82,7 +82,7 @@ export const ProjectModel = () => {
                <div className="project-item item-3">
                   <div className="item-img">
                      <img
-                        src="https://res.cloudinary.com/dqvjijgb5/image/upload/v1660126260/profile/projects/4/1.png"
+                        src="https://res.cloudinary.com/dqvjijgb5/image/upload/v1660233518/profile/projects/4/1.png"
                         alt=""
                      />
                   </div>
