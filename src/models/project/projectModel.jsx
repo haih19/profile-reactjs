@@ -3,6 +3,22 @@ import './projectModelResponsive.scss';
 import { Link } from 'react-router-dom';
 
 export const ProjectModel = () => {
+   const handleOnClick1 = () => {
+      window.location.href = 'https://github.com/haih19/LTW_BTL_02';
+   };
+   const handleOnClick2 = () => {
+      window.location.href = 'https://github.com/haih19/Project---The-Band';
+   };
+   const handleOnClick3 = () => {
+      window.location.href = 'https://github.com/haih19/profile-reactjs';
+   };
+   const handleOnClick4 = () => {
+      window.location.href = 'https://github.com/haih19/nodejs-basic-6-7-2022';
+   };
+   const handleOnClick5 = () => {
+      window.location.href = 'https://github.com/haih19/reactjs-hooks-basic';
+   };
+
    return (
       <div className="project-model-container">
          <div className="title">
@@ -32,7 +48,9 @@ export const ProjectModel = () => {
                      </div>
                      <div className="inform-footer">
                         <div className="inform-git">
-                           <Link to={''}>Go to Github</Link>
+                           <Link onClick={() => handleOnClick1()} to={''}>
+                              Go to Github
+                           </Link>
                         </div>
                      </div>
                   </div>
@@ -54,7 +72,9 @@ export const ProjectModel = () => {
                      </div>
                      <div className="inform-footer">
                         <div className="inform-git">
-                           <Link to={''}>Go to Github</Link>
+                           <Link onClick={() => handleOnClick2()} to={''}>
+                              Go to Github
+                           </Link>
                         </div>
                      </div>
                   </div>
@@ -70,13 +90,15 @@ export const ProjectModel = () => {
                      <div className="line">
                         <p></p>
                      </div>
-                     <div className="inform-title">Major assignment - WD</div>
+                     <div className="inform-title">Profile Website</div>
                      <div className="inform-content">
-                        <p>Using PHP, Xampp</p>
+                        <p>Using Reactjs</p>
                      </div>
                      <div className="inform-footer">
                         <div className="inform-git">
-                           <Link to={''}>Go to Github</Link>
+                           <Link onClick={() => handleOnClick3()} to={''}>
+                              Go to Github
+                           </Link>
                         </div>
                      </div>
                   </div>
@@ -99,7 +121,9 @@ export const ProjectModel = () => {
                      </div>
                      <div className="inform-footer">
                         <div className="inform-git">
-                           <Link to={''}>Go to Github</Link>
+                           <Link onClick={() => handleOnClick4()} to={''}>
+                              Go to Github
+                           </Link>
                         </div>
                      </div>
                   </div>
@@ -121,7 +145,9 @@ export const ProjectModel = () => {
                      </div>
                      <div className="inform-footer">
                         <div className="inform-git">
-                           <Link to={''}>Go to Github</Link>
+                           <Link onClick={() => handleOnClick5()} to={''}>
+                              Go to Github
+                           </Link>
                         </div>
                      </div>
                   </div>
