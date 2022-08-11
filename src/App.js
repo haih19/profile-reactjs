@@ -4,7 +4,7 @@ import { ContactPage } from './pages/contact/contactPage';
 import { HomePage } from './pages/home/homePage';
 import { AboutPage } from './pages/about/aboutPage';
 import { ProjectPage } from './pages/project/projectPage';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const ListRoute = () => {
