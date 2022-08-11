@@ -1,0 +1,54 @@
+.nav-link {
+   z-index: 1;
+   background-color: #ffffff;
+   font-family: 'Poppins', sans-serif;
+   position: fixed;
+   top: 0;
+   right: 0;
+   height: 60px;
+   line-height: 60px;
+   margin-right: 70px;
+   //    display: block;
+   li {
+      .active {
+         background-color: #333333;
+         color: #ffffff;
+         line-height: 30px;
+      }
+      display: inline-block;
+
+      a {
+         text-decoration: none;
+         font-size: 15px;
+         color: #010101;
+         padding: 0 22px;
+         display: inline-block;
+      }
+      // a:hover {
+      //    background-color: #333333;
+      //    color: #ffffff;
+      //    line-height: 30px;
+      // }
+   }
+   li:hover a {
+      background-color: #333333;
+      color: #ffffff;
+      line-height: 30px;
+   }
+}
+
+// pc
+@media (min-width: 64em) {
+}
+
+// Tablet
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+}
+
+// Mobile and Tablet
+@media (max-width: 63.9375em) {
+}
+
+// Mobile
+@media (max-width: 46.1875em) {
+}

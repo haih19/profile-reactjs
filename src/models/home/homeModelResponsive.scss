@@ -1,0 +1,45 @@
+// pc
+@media (min-width: 64em) {
+}
+
+//ipad pro
+@media (min-width: 1024px) and (max-width: 1400px) {
+   .home-model-container {
+      margin-left: 30px;
+      margin-right: 30px;
+      // height: 100vh;
+   }
+}
+
+// Tablet
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+   .home-model-container {
+      margin-left: 0;
+      margin-right: 0;
+      height: 100vh;
+   }
+}
+
+// Mobile and Tablet
+@media (max-width: 63.9375em) {
+}
+
+// Mobile
+@media (max-width: 46.1875em) {
+   .home-model-container {
+      margin-left: 0;
+      margin-right: 0;
+      // height: 100vh;
+      .home-model-name {
+         font-size: 25px;
+      }
+      .home-model-line {
+         width: 200px;
+         height: 4px;
+         background-color: #000;
+      }
+      .home-model-job {
+         font-size: 20px;
+      }
+   }
+}

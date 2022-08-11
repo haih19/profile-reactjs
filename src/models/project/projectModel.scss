@@ -1,0 +1,107 @@
+.project-model-container {
+   margin: 60px 70px 0 70px;
+   background-color: #f6fbff;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 65px 0;
+   font-family: 'Poppins', sans-serif;
+   .title {
+      padding-left: 200px;
+      padding-right: 200px;
+
+      .title-text {
+         display: inline-block;
+         p {
+            font-weight: 700;
+            text-transform: uppercase;
+         }
+      }
+      .title-line {
+         float: right;
+         width: 85%;
+         right: 0;
+         p {
+            display: block;
+            background-color: #7d7789;
+            height: 2px;
+            margin-top: 12px;
+         }
+      }
+   }
+   .content {
+      padding-bottom: 40px;
+      padding-left: 200px;
+      padding-right: 200px;
+      .project-list {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         margin-top: 65px;
+         .item-1 {
+            grid-column-start: 1;
+         }
+         .item-2 {
+            grid-column-start: 3;
+         }
+         .item-3 {
+            grid-column-start: 1;
+         }
+         .item-4 {
+            grid-column-start: 3;
+         }
+         .item-5 {
+            grid-column-start: 1;
+         }
+         .project-item {
+            border-radius: 5px;
+            box-shadow: 0 2px 8px 5px rgba(0, 0, 0, 0.3);
+            margin-bottom: 50px;
+            width: 320px;
+            .item-img {
+               border-radius: inherit;
+               img {
+                  border-radius: inherit;
+                  width: 100%;
+                  display: block;
+               }
+            }
+            .item-img:hover {
+               opacity: 0.3;
+            }
+            .item-inform {
+               border-radius: inherit;
+               padding-left: 4px;
+               padding-top: 20px;
+               width: 100%;
+               background-color: #fff;
+               .inform-title {
+                  text-align: center;
+                  font-weight: 700;
+               }
+               .inform-content {
+                  text-align: center;
+                  padding-top: 20px;
+               }
+               .inform-footer {
+                  padding-bottom: 25px;
+                  padding-top: 20px;
+                  .inform-git {
+                     display: flex;
+                     justify-content: center;
+                     a {
+                        text-decoration: none;
+                        padding: 4px 26px;
+                        background-color: #140c6e;
+                        color: #fff;
+                        border-radius: 50px;
+                     }
+                     a:hover {
+                        opacity: 0.3;
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

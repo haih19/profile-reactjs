@@ -1,0 +1,134 @@
+.contact-model-container {
+   margin: 60px 70px 0 70px;
+   background-color: #f6fbff;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 65px 0;
+   font-family: 'Poppins', sans-serif;
+   .contact-header {
+      padding-left: 200px;
+      padding-right: 200px;
+      .contact-header-title {
+         display: inline-block;
+         p {
+            font-weight: 700;
+            text-transform: uppercase;
+         }
+      }
+      .contact-header-line {
+         float: right;
+         width: 85%;
+         right: 0;
+         p {
+            display: block;
+            background-color: #7d7789;
+            height: 2px;
+            margin-top: 12px;
+         }
+      }
+   }
+   .contact-content {
+      padding-left: 200px;
+      padding-right: 200px;
+      .inform-list {
+         margin-top: 65px;
+         display: flex;
+         flex-direction: row;
+         .inform-item {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .icon {
+               font-size: 28px;
+               .location {
+                  color: #e0493a;
+               }
+               .mail {
+                  color: #3a98bb;
+               }
+               .phone {
+                  color: #694ed1;
+               }
+            }
+            .name {
+            }
+         }
+         .inform-item:hover {
+            opacity: 0.3;
+         }
+      }
+      .mail-content {
+         font-family: 'Poppins', sans-serif;
+         margin-top: 65px;
+         display: flex;
+         flex-direction: row;
+         .mail-title {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+         }
+         .mail-contain {
+            flex: 1;
+            .mail-inform {
+               margin-bottom: 30px;
+               .mail-inform-1 {
+                  width: 100%;
+                  .input-name {
+                     margin-bottom: 30px;
+                     width: inherit;
+                     input {
+                        width: 80%;
+                        font-size: 16px;
+                        padding: 8px 12px;
+                        border: 1px solid black;
+                     }
+                  }
+                  .input-email {
+                     margin-bottom: 30px;
+                     width: inherit;
+                     input {
+                        width: 80%;
+                        font-size: 16px;
+                        padding: 8px 12px;
+                     }
+                  }
+               }
+               .mail-inform-2 {
+                  textarea {
+                     font-family: inherit;
+                     width: 80%;
+                     font-size: 16px;
+                     padding: 8px 12px;
+                     border: 1px solid black;
+                     height: 160px;
+                  }
+               }
+            }
+            .btn-send {
+               width: 100%;
+               button {
+                  width: 80%;
+                  font-size: 18px;
+                  padding: 12px 0;
+                  background-color: #333;
+                  color: #fff;
+                  cursor: pointer;
+               }
+               button:hover {
+                  background-color: #f6fbff;
+                  color: #333;
+               }
+            }
+         }
+      }
+   }
+   .map-content {
+      margin-top: 65px;
+      padding-bottom: 90px;
+   }
+}

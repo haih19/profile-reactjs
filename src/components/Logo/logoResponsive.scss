@@ -1,0 +1,29 @@
+@media (min-width: 64em) {
+}
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+   .nav-logo {
+      margin-left: 0;
+      a {
+         margin-left: 30px;
+      }
+   }
+}
+
+// Tablet
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+   .nav-logo {
+      margin-left: 0;
+      a {
+         margin-left: 20px;
+      }
+   }
+}
+
+// Mobile and Tablet
+@media (max-width: 63.9375em) {
+}
+
+// Mobile
+@media (max-width: 46.1875em) {
+}

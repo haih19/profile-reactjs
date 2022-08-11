@@ -1,0 +1,70 @@
+// pc
+@media (min-width: 64em) {
+}
+
+//ipad pro
+@media (min-width: 1024px) and (max-width: 1400px) {
+   .social-media-list {
+      margin-right: 30px;
+      .social-media-item {
+         a {
+            font-size: 30px;
+            margin-left: 10px;
+            .facebook {
+            }
+            .twitter {
+            }
+            .instagram {
+            }
+            .github {
+            }
+         }
+      }
+   }
+}
+
+// Tablet
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+   .social-media-list {
+      margin-right: 20px;
+      .social-media-item {
+         a {
+            font-size: 30px;
+            margin-left: 10px;
+            .facebook {
+            }
+            .twitter {
+            }
+            .instagram {
+            }
+            .github {
+            }
+         }
+      }
+   }
+}
+
+// Mobile and Tablet
+@media (max-width: 63.9375em) {
+}
+
+// Mobile
+@media (max-width: 46.1875em) {
+   .social-media-list {
+      margin-right: 8px;
+      .social-media-item {
+         a {
+            font-size: 20px;
+            margin-left: 5px;
+            .facebook {
+            }
+            .twitter {
+            }
+            .instagram {
+            }
+            .github {
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,47 @@
+.home-model-container {
+   display: flex;
+   margin: 0 70px 0 70px;
+   height: 100vh;
+   // height: 2000px;
+   background-color: #f6fbff;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 200px 0;
+   .home-model-name {
+      font-size: 30px;
+      font-weight: 700;
+      font-family: 'Poppins', sans-serif;
+      span {
+         color: #ed0031;
+      }
+   }
+   .home-model-line {
+      margin-top: 30px;
+      width: 400px;
+      height: 4px;
+      background-color: #000;
+   }
+   .home-model-job {
+      font-family: 'Poppins', sans-serif;
+      margin-top: 30px;
+      font-size: 25px;
+      span {
+         color: #7d7789;
+      }
+   }
+   a {
+      font-family: 'Poppins', sans-serif;
+      text-decoration: none;
+      margin-top: 30px;
+      font-size: 16px;
+      background-color: #333;
+      color: #fff;
+      padding: 18px 36px;
+   }
+   a:hover {
+      background-color: #f6fbff;
+      border: 2px solid #333;
+      color: #333;
+   }
+}

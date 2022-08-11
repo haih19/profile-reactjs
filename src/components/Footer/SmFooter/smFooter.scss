@@ -1,0 +1,48 @@
+.social-media-list {
+   z-index: 1;
+   background-color: #ffffff;
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   margin-right: 70px;
+   height: 60px;
+   line-height: 60px;
+   .social-media-item {
+      display: inline-block;
+      margin: 0 14px;
+      font-size: 20px;
+      a {
+         .facebook {
+            color: #1773ea;
+         }
+         .twitter {
+            color: #1d9bf0;
+         }
+         .instagram {
+            color: #c73598;
+         }
+         .github {
+            color: #000;
+         }
+      }
+      a:hover {
+         opacity: 0.3;
+      }
+   }
+}
+
+// pc
+@media (min-width: 64em) {
+}
+
+// Tablet
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+}
+
+// Mobile and Tablet
+@media (max-width: 63.9375em) {
+}
+
+// Mobile
+@media (max-width: 46.1875em) {
+}

@@ -1,0 +1,524 @@
+// pc
+@media (min-width: 64em) {
+}
+
+//ipad pro
+@media (min-width: 1024px) and (max-width: 1400px) {
+   .about-model-container {
+      box-sizing: border-box;
+      margin-left: 30px;
+      margin-right: 30px;
+      .about-list {
+         .about-item-1 {
+            padding-left: 50px;
+            padding-right: 50px;
+         }
+         .about-item-2 {
+            padding-left: 50px;
+            padding-right: 50px;
+            .item-left {
+               .item-header {
+                  .item-header-title {
+                  }
+                  .item-header-line {
+                  }
+               }
+            }
+            .item-right {
+               .item-header {
+                  .item-header-title {
+                  }
+                  .item-header-line {
+                  }
+               }
+            }
+         }
+         .about-item-3 {
+            padding-left: 50px;
+            padding-right: 50px;
+            .item-header {
+               .item-header-title {
+               }
+               .item-header-line {
+               }
+            }
+         }
+         .about-item-4 {
+            padding-left: 50px;
+            padding-right: 50px;
+            .item-header {
+               .item-header-title {
+               }
+               .item-header-line {
+               }
+            }
+         }
+      }
+   }
+}
+
+// Tablet
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+   .about-model-container {
+      margin-left: 0;
+      margin-right: 0;
+      .about-list {
+         padding-top: 0;
+         .about-item-1 {
+            padding-left: 20px;
+            padding-right: 20px;
+         }
+         .about-item-2 {
+            padding-left: 20px;
+            padding-right: 20px;
+            .item-left {
+               .item-header {
+                  .item-header-title {
+                  }
+                  .item-header-line {
+                     width: 50%;
+                  }
+               }
+            }
+            .item-right {
+               .item-header {
+                  .item-header-title {
+                  }
+                  .item-header-line {
+                     width: 20%;
+                  }
+               }
+            }
+         }
+         .about-item-3 {
+            padding-left: 20px;
+            padding-right: 20px;
+            .item-header {
+               .item-header-title {
+               }
+               .item-header-line {
+                  width: 80%;
+               }
+            }
+         }
+         .about-item-4 {
+            padding-left: 20px;
+            padding-right: 20px;
+            .item-header {
+               .item-header-title {
+               }
+               .item-header-line {
+                  width: 85%;
+               }
+            }
+         }
+      }
+   }
+}
+
+// Mobile and Tablet
+@media (max-width: 63.9375em) {
+}
+
+// Mobile
+@media (max-width: 46.1875em) {
+   .about-model-container {
+      margin-left: 0;
+      margin-right: 0;
+      .about-list {
+         padding-top: 0;
+         .about-item-1 {
+            padding-left: 8px;
+            padding-right: 8px;
+            .item-header {
+               .item-header-title {
+               }
+               .item-header-line {
+                  width: 70%;
+               }
+            }
+            .item-content {
+               display: flex;
+               flex-direction: column;
+               gap: 15px;
+            }
+         }
+         .about-item-2 {
+            padding-left: 8px;
+            padding-right: 8px;
+            display: flex;
+            flex-direction: column;
+            .item-left {
+               .item-header {
+                  .item-header-title {
+                  }
+                  .item-header-line {
+                     width: 50%;
+                  }
+               }
+            }
+            .item-right {
+               .item-header {
+                  .item-header-title {
+                  }
+                  .item-header-line {
+                     width: 30%;
+                  }
+               }
+            }
+         }
+         .about-item-3 {
+            padding-left: 8px;
+            padding-right: 8px;
+            .item-header {
+               .item-header-title {
+               }
+               .item-header-line {
+                  width: 65%;
+               }
+            }
+            .item-content {
+               .content-element {
+                  display: flex;
+                  flex-direction: column;
+                  .year {
+                     p {
+                        text-align: center;
+                        // font-size: 16px;
+                        // padding: 2px 8px;
+                        // background-color: #989fa4;
+                        // border-radius: 50px;
+                        // margin-top: 14px;
+                     }
+                  }
+                  .education-name {
+                     margin-top: 8px;
+                     margin-left: 8px;
+                     .name {
+                        // font-weight: 700;
+                     }
+                     .level {
+                     }
+                  }
+               }
+            }
+         }
+         .about-item-4 {
+            padding-left: 8px;
+            padding-right: 8px;
+            .item-header {
+               .item-header-title {
+               }
+               .item-header-line {
+                  width: 70%;
+               }
+            }
+         }
+      }
+   }
+}
+
+// small mobile
+@media (max-width: 355px) {
+   .about-model-container {
+      margin-left: 0;
+      margin-right: 0;
+      .about-list {
+         padding-top: 0;
+         .about-item-1 {
+            padding-left: 4px;
+            padding-right: 4px;
+            .item-header {
+               .item-header-title {
+               }
+               .item-header-line {
+                  width: 60%;
+               }
+            }
+            .item-content {
+               display: flex;
+               flex-direction: column;
+               gap: 15px;
+               .content-element {
+                  .element {
+                     .element-text {
+                     }
+                     .element-1 {
+                        width: 80px;
+                     }
+                     .element-2 {
+                        margin-left: 4px;
+                     }
+                  }
+               }
+            }
+         }
+         .about-item-2 {
+            padding-left: 4px;
+            padding-right: 4px;
+            display: flex;
+            flex-direction: column;
+            .item-left {
+               .item-header {
+                  .item-header-title {
+                  }
+                  .item-header-line {
+                     width: 50%;
+                  }
+               }
+            }
+            .item-right {
+               .item-header {
+                  .item-header-title {
+                  }
+                  .item-header-line {
+                     width: 20%;
+                  }
+               }
+            }
+         }
+         .about-item-3 {
+            padding-left: 4px;
+            padding-right: 4px;
+            .item-header {
+               .item-header-title {
+               }
+               .item-header-line {
+                  width: 60%;
+               }
+            }
+            .item-content {
+               .content-element {
+                  display: flex;
+                  flex-direction: column;
+                  .year {
+                     p {
+                        text-align: center;
+                        // font-size: 16px;
+                        // padding: 2px 8px;
+                        // background-color: #989fa4;
+                        // border-radius: 50px;
+                        // margin-top: 14px;
+                     }
+                  }
+                  .education-name {
+                     margin-top: 4px;
+                     margin-left: 4px;
+                     .name {
+                        // font-weight: 700;
+                     }
+                     .level {
+                     }
+                  }
+               }
+            }
+         }
+         .about-item-4 {
+            padding-left: 4px;
+            padding-right: 4px;
+            .item-header {
+               .item-header-title {
+               }
+               .item-header-line {
+                  width: 70%;
+               }
+            }
+         }
+      }
+   }
+}
+
+//medium mobile
+@media (min-width: 450px) and (max-width: 500px) {
+   .about-model-container {
+      margin-left: 0;
+      margin-right: 0;
+      .about-list {
+         padding-top: 0;
+         .about-item-1 {
+            padding-left: 8px;
+            padding-right: 8px;
+            .item-header {
+               .item-header-title {
+               }
+               .item-header-line {
+                  width: 70%;
+               }
+            }
+            .item-content {
+               display: flex;
+               flex-direction: column;
+               gap: 15px;
+            }
+         }
+         .about-item-2 {
+            padding-left: 8px;
+            padding-right: 8px;
+            display: flex;
+            flex-direction: column;
+            .item-left {
+               .item-header {
+                  .item-header-title {
+                  }
+                  .item-header-line {
+                     width: 60%;
+                  }
+               }
+            }
+            .item-right {
+               .item-header {
+                  .item-header-title {
+                  }
+                  .item-header-line {
+                     width: 40%;
+                  }
+               }
+            }
+         }
+         .about-item-3 {
+            padding-left: 8px;
+            padding-right: 8px;
+            .item-header {
+               .item-header-title {
+               }
+               .item-header-line {
+                  width: 70%;
+               }
+            }
+            .item-content {
+               .content-element {
+                  display: flex;
+                  flex-direction: column;
+                  .year {
+                     p {
+                        text-align: center;
+                        // font-size: 16px;
+                        // padding: 2px 8px;
+                        // background-color: #989fa4;
+                        // border-radius: 50px;
+                        // margin-top: 14px;
+                     }
+                  }
+                  .education-name {
+                     margin-top: 8px;
+                     margin-left: 8px;
+                     .name {
+                        // font-weight: 700;
+                     }
+                     .level {
+                     }
+                  }
+               }
+            }
+         }
+         .about-item-4 {
+            padding-left: 8px;
+            padding-right: 8px;
+            .item-header {
+               .item-header-title {
+               }
+               .item-header-line {
+                  width: 70%;
+               }
+            }
+         }
+      }
+   }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+   .about-model-container {
+      margin-left: 0;
+      margin-right: 0;
+      .about-list {
+         padding-top: 0;
+         .about-item-1 {
+            padding-left: 8px;
+            padding-right: 8px;
+            .item-header {
+               .item-header-title {
+               }
+               .item-header-line {
+                  width: 80%;
+               }
+            }
+            .item-content {
+               display: flex;
+               flex-direction: column;
+               gap: 15px;
+            }
+         }
+         .about-item-2 {
+            padding-left: 8px;
+            padding-right: 8px;
+            display: flex;
+            flex-direction: column;
+            .item-left {
+               .item-header {
+                  .item-header-title {
+                  }
+                  .item-header-line {
+                     width: 75%;
+                  }
+               }
+            }
+            .item-right {
+               .item-header {
+                  .item-header-title {
+                  }
+                  .item-header-line {
+                     width: 58%;
+                  }
+               }
+            }
+         }
+         .about-item-3 {
+            padding-left: 8px;
+            padding-right: 8px;
+            .item-header {
+               .item-header-title {
+               }
+               .item-header-line {
+                  width: 79%;
+               }
+            }
+            .item-content {
+               .content-element {
+                  display: flex;
+                  flex-direction: column;
+                  .year {
+                     p {
+                        text-align: center;
+                        // font-size: 16px;
+                        // padding: 2px 8px;
+                        // background-color: #989fa4;
+                        // border-radius: 50px;
+                        // margin-top: 14px;
+                     }
+                  }
+                  .education-name {
+                     margin-top: 8px;
+                     margin-left: 8px;
+                     .name {
+                        // font-weight: 700;
+                     }
+                     .level {
+                     }
+                  }
+               }
+            }
+         }
+         .about-item-4 {
+            padding-left: 8px;
+            padding-right: 8px;
+            .item-header {
+               .item-header-title {
+               }
+               .item-header-line {
+                  width: 80%;
+               }
+            }
+         }
+      }
+   }
+}
